@@ -1,10 +1,10 @@
 # Coma
 
-**TODO: Add description**
+Yet another CSV library for Elixir!
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Once I get around to publishing Coma, follow these instructions:
 
   1. Add coma to your list of dependencies in `mix.exs`:
 
@@ -12,9 +12,19 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [{:coma, "~> 0.0.1"}]
         end
 
-  2. Ensure coma is started before your application:
+  2. __????PROFIT????__
+
+  <!-- 2. Ensure coma is started before your application:
 
         def application do
           [applications: [:coma]]
-        end
+        end -->
 
+
+## Todo
+
+- [x] CSV Reading
+  - [ ] Struct to represent CSV Row
+  - [ ] Options for reading headers
+- [ ] CSV Writing
+- [ ] Read/Write to/from struct rather than supplying a list of values
