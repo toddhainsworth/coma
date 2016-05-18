@@ -1,0 +1,2 @@
+defmodule Coma do
+end
