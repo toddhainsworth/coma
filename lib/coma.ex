@@ -1,4 +1,12 @@
 defmodule Coma do
+  @moduledoc """
+  This is the core module of Coma.
+  """
+
+  @doc """
+  Reads and parses the file identified by the given
+  filename if it exists.
+  """
   def read(filename) do
     if File.exists?(filename) do
       case File.read(filename) do

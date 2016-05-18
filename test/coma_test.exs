@@ -1,6 +1,5 @@
 defmodule ComaTest do
   use ExUnit.Case
-  doctest Coma
 
   test "read/1 when file does not exist" do
     assert Coma.read("does_not_exist") == { :error, "File not found" }
