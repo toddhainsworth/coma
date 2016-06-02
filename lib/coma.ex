@@ -23,7 +23,7 @@ defmodule Coma do
   - :append (Default, append to the end of the file)
   - :overwrite (Overwrite the contents of the file with the given row)
   """
-  def write_row(row, filename, mode \\ :append) do
+  def write(row, filename, mode \\ :append) do
     csv = Enum.join(row, ",") <> "\n"
     write_mode = case mode do
       :append -> :append
